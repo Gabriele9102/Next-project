@@ -1,0 +1,32 @@
+.main {
+  position: relative;
+  
+  h1{
+    position: absolute;
+    font-size: 5rem;
+    color: black;
+    text-align: center;
+    transform: translate(20vw, 40px);
+    z-index: 2;
+  }
+  
+  img {
+   width: 80vw;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   filter: sepia(0.8);
+   
+  }
+}
+
+
+.body{
+margin-top: 100px;
+
+ h2{
+  text-align: center;
+ }
+}
+

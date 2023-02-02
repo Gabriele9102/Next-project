@@ -1,0 +1,23 @@
+.user{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 0px 30px 100px;
+    
+
+    .card{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        gap: 10px;
+        padding: 10px 5px;
+        width: 200px;
+        height: auto;
+        background: white;
+        color: black;
+        border-radius: 8px;
+    }
+}
